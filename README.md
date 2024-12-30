@@ -57,8 +57,8 @@ Next, `place the scrollify_php.php in your project directory.`
 
 Next, download the required CSS and JS files for the scroll progress bar from the CDN:
 
-- **CSS**: [https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.css](https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-php@latest/scrollify-scrollprogress-indicator.css)
-- **JS**: [https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.js](https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-php@latest/scrollify-scrollprogress-indicator.js)
+- **CSS**: [https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.css](https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.css)
+- **JS**: [https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.js](https://cdn.jsdelivr.net/gh/emmanpbarrameda/scrollify-js@latest/scrollify-scrollprogress-indicator.js)
 
 **Note:** Download these files manually on this github repo, or by using the provided links. 
 
