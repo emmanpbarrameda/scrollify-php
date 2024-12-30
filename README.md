@@ -29,7 +29,7 @@
   </a>
   <br>
   <a href="https://github.com/emmanpbarrameda/scrollify-js" target="_blank">
-    <strong>Looking for CCS-JS Version?</strong>
+    <strong>Looking for CSS-JS Version?</strong>
   </a>
 </p>
 
