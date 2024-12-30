@@ -51,6 +51,8 @@ First, download the `scrollify_php.php` file from the following GitHub repositor
 
 This PHP file will handle the inclusion of necessary resources for the scroll progress bar.
 
+Next, `place the scrollify_php.php in your project directory.`
+
 ### 2. Include Required Asset Files
 
 Next, download the required CSS and JS files for the scroll progress bar from the CDN:
@@ -62,26 +64,15 @@ Next, download the required CSS and JS files for the scroll progress bar from th
 
 Next, place them in your project directory under: e.g.,; `assets/css/` and `assets/js/` folders.
 
-### 3. Include the Files in Your Blade (PHP) Template
+### 3. Include in Your PHP Blade Files
 
-In your PHP Blade file, include the required files using the following PHP code:
+In your PHP Blade files, include the `scrollify_php.php` using the following PHP code:
 
 ```php
-<?php include_once 'scrollify_php.php'; ?>
+<?php include 'scrollify_php.php'; ?>
 ```
 
 This will include the necessary CSS and JS files for the scroll progress bar to function properly.
-
-## 🎨 Customization
-
-You can customize the progress bar using the following data attributes, located on `scrollify_php.php` file
-
-| Attribute       | Description                       | Default Value                                 |
-|-----------------|-----------------------------------|-----------------------------------------------|
-| `data-height`   | Height of the progress bar        | `4px`                                         |
-| `data-background` | Background color/gradient         | `linear-gradient(to left, #B374F8, #4da3ff)`  |
-| `data-z-index`  | Stack order of the bar            | `10000`                                       |
-| `data-top`      | Top position of the bar           | `0px`                                         |
 
 ## 💻 Usage Example on your PHP Blade File
 
@@ -100,6 +91,18 @@ You can customize the progress bar using the following data attributes, located 
 </body>
 </html>
 ```
+
+## 🎨 Customization
+
+You can customize the progress bar using the following data attributes, located on `scrollify_php.php` file
+
+| Attribute       | Description                       | Default Value                                 |
+|-----------------|-----------------------------------|-----------------------------------------------|
+| `data-height`   | Height of the progress bar        | `4px`                                         |
+| `data-background` | Background color/gradient         | `linear-gradient(to left, #B374F8, #4da3ff)`  |
+| `data-z-index`  | Stack order of the bar            | `10000`                                       |
+| `data-top`      | Top position of the bar           | `0px`                                         |
+
 
 ## 🤝 Contributing
 
